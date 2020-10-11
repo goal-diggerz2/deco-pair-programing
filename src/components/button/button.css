@@ -1,8 +1,29 @@
-.btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: #016b6b;
+.btn-link {
+  margin: auto;
+}
+
+button {
+  color: #fff;
+  width: 100%;
+  padding: 14px;
+  border-radius: 16px;
   border: none;
-  padding: 10px 20px;
+  width: calc(100vw - 76px);
+  max-width: 640px;
+  text-align: center;
+}
+
+button > p {
+  margin: auto;
+}
+
+.btn-cta {
+  background-color: #a06aff;
+}
+
+.btn-outline {
+  background: none;
+  color: #a06aff;
+  border: solid 1px #a06aff;
+  padding: 13px;
 }
