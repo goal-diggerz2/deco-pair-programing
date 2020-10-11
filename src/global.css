@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://use.typekit.net/ues6ips.css");
+
+/*
+
+-- Neue Haas Unica W1G Bold
+
+font-family: neue-haas-unica, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+-- Neue Haas Unica W1G Medium
+
+font-family: neue-haas-unica, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+
+-- Neue Haas Unica W1G Regular
+
+font-family: neue-haas-unica, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+*/
 
 *,
 *::after,
@@ -6,13 +30,16 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
-
+html,
 body {
-  font-family: "Quicksand", sans-serif;
+  font-size: 10px;
+  font-family: "neue-haas-unica", sans-serif;
   margin: 0;
+  color: #1b1b1b;
+  background-color: #f4f4f4;
+  width: 100vw;
+  height: 100vh;
+  line-height: 2.5rem;
 }
 
 input,
@@ -21,5 +48,16 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "neue-haas-unica", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

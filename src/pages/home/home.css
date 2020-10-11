@@ -1,0 +1,10 @@
+main {
+  width: 100vw;
+  padding: 49px 16px;
+}
+
+section {
+  width: 100%;
+  height: calc(100vw - 32px);
+  margin: 16px auto;
+}
